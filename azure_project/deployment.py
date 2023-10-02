@@ -29,9 +29,9 @@ conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.s
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': conn_str_params['dbname'],
-        'HOST': conn_str_params['host'],
-        'USER': conn_str_params['user'],
-        'PASSWORD': conn_str_params['password'],
+        'NAME': conn_str_params['wejatest-database'],
+        'HOST': conn_str_params['wejatest-server.postgres.database.azure.com'],
+        'USER': conn_str_params['qbierxfkgc'],
+        'PASSWORD': conn_str_params['VT7S24UNU33034TB$'],
     }
 }
